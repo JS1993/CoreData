@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF5620971C941E8700FEDBED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5620961C941E8700FEDBED /* main.m */; };
+		CF56209A1C941E8700FEDBED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5620991C941E8700FEDBED /* AppDelegate.m */; };
+		CF56209D1C941E8700FEDBED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF56209C1C941E8700FEDBED /* ViewController.m */; };
+		CF5620A01C941E8700FEDBED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF56209E1C941E8700FEDBED /* Main.storyboard */; };
+		CF5620A31C941E8700FEDBED /* adas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF5620A11C941E8700FEDBED /* adas.xcdatamodeld */; };
+		CF5620A51C941E8700FEDBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5620A41C941E8700FEDBED /* Assets.xcassets */; };
+		CF5620A81C941E8700FEDBED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5620A61C941E8700FEDBED /* LaunchScreen.storyboard */; };
+		CF5620B31C941E8800FEDBED /* adasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5620B21C941E8800FEDBED /* adasTests.m */; };
+		CF5620BE1C941E8800FEDBED /* adasUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5620BD1C941E8800FEDBED /* adasUITests.m */; };
+		CF5620DB1C9425F900FEDBED /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5620D81C9425F900FEDBED /* Person+CoreDataProperties.m */; };
+		CF5620DC1C9425F900FEDBED /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CF5620DA1C9425F900FEDBED /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF5620AF1C941E8800FEDBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF56208A1C941E8700FEDBED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5620911C941E8700FEDBED;
+			remoteInfo = adas;
+		};
+		CF5620BA1C941E8800FEDBED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF56208A1C941E8700FEDBED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5620911C941E8700FEDBED;
+			remoteInfo = adas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF5620921C941E8700FEDBED /* adas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = adas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5620961C941E8700FEDBED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF5620981C941E8700FEDBED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF5620991C941E8700FEDBED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF56209B1C941E8700FEDBED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CF56209C1C941E8700FEDBED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF56209F1C941E8700FEDBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF5620A21C941E8700FEDBED /* adas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = adas.xcdatamodel; sourceTree = "<group>"; };
+		CF5620A41C941E8700FEDBED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5620A71C941E8700FEDBED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF5620A91C941E8700FEDBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5620AE1C941E8800FEDBED /* adasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5620B21C941E8800FEDBED /* adasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adasTests.m; sourceTree = "<group>"; };
+		CF5620B41C941E8800FEDBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5620B91C941E8800FEDBED /* adasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = adasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5620BD1C941E8800FEDBED /* adasUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = adasUITests.m; sourceTree = "<group>"; };
+		CF5620BF1C941E8800FEDBED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5620D71C9425F900FEDBED /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		CF5620D81C9425F900FEDBED /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		CF5620D91C9425F900FEDBED /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CF5620DA1C9425F900FEDBED /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF56208F1C941E8700FEDBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5620AB1C941E8800FEDBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5620B61C941E8800FEDBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF5620891C941E8700FEDBED = {
+			isa = PBXGroup;
+			children = (
+				CF5620941C941E8700FEDBED /* adas */,
+				CF5620B11C941E8800FEDBED /* adasTests */,
+				CF5620BC1C941E8800FEDBED /* adasUITests */,
+				CF5620931C941E8700FEDBED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5620931C941E8700FEDBED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5620921C941E8700FEDBED /* adas.app */,
+				CF5620AE1C941E8800FEDBED /* adasTests.xctest */,
+				CF5620B91C941E8800FEDBED /* adasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5620941C941E8700FEDBED /* adas */ = {
+			isa = PBXGroup;
+			children = (
+				CF5620981C941E8700FEDBED /* AppDelegate.h */,
+				CF5620991C941E8700FEDBED /* AppDelegate.m */,
+				CF56209B1C941E8700FEDBED /* ViewController.h */,
+				CF56209C1C941E8700FEDBED /* ViewController.m */,
+				CF56209E1C941E8700FEDBED /* Main.storyboard */,
+				CF5620A41C941E8700FEDBED /* Assets.xcassets */,
+				CF5620A61C941E8700FEDBED /* LaunchScreen.storyboard */,
+				CF5620A91C941E8700FEDBED /* Info.plist */,
+				CF5620A11C941E8700FEDBED /* adas.xcdatamodeld */,
+				CF5620951C941E8700FEDBED /* Supporting Files */,
+				CF5620D71C9425F900FEDBED /* Person+CoreDataProperties.h */,
+				CF5620D81C9425F900FEDBED /* Person+CoreDataProperties.m */,
+				CF5620D91C9425F900FEDBED /* Person.h */,
+				CF5620DA1C9425F900FEDBED /* Person.m */,
+			);
+			path = adas;
+			sourceTree = "<group>";
+		};
+		CF5620951C941E8700FEDBED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF5620961C941E8700FEDBED /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF5620B11C941E8800FEDBED /* adasTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5620B21C941E8800FEDBED /* adasTests.m */,
+				CF5620B41C941E8800FEDBED /* Info.plist */,
+			);
+			path = adasTests;
+			sourceTree = "<group>";
+		};
+		CF5620BC1C941E8800FEDBED /* adasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5620BD1C941E8800FEDBED /* adasUITests.m */,
+				CF5620BF1C941E8800FEDBED /* Info.plist */,
+			);
+			path = adasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5620911C941E8700FEDBED /* adas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5620C21C941E8800FEDBED /* Build configuration list for PBXNativeTarget "adas" */;
+			buildPhases = (
+				CF56208E1C941E8700FEDBED /* Sources */,
+				CF56208F1C941E8700FEDBED /* Frameworks */,
+				CF5620901C941E8700FEDBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = adas;
+			productName = adas;
+			productReference = CF5620921C941E8700FEDBED /* adas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF5620AD1C941E8800FEDBED /* adasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5620C51C941E8800FEDBED /* Build configuration list for PBXNativeTarget "adasTests" */;
+			buildPhases = (
+				CF5620AA1C941E8800FEDBED /* Sources */,
+				CF5620AB1C941E8800FEDBED /* Frameworks */,
+				CF5620AC1C941E8800FEDBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5620B01C941E8800FEDBED /* PBXTargetDependency */,
+			);
+			name = adasTests;
+			productName = adasTests;
+			productReference = CF5620AE1C941E8800FEDBED /* adasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF5620B81C941E8800FEDBED /* adasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5620C81C941E8800FEDBED /* Build configuration list for PBXNativeTarget "adasUITests" */;
+			buildPhases = (
+				CF5620B51C941E8800FEDBED /* Sources */,
+				CF5620B61C941E8800FEDBED /* Frameworks */,
+				CF5620B71C941E8800FEDBED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5620BB1C941E8800FEDBED /* PBXTargetDependency */,
+			);
+			name = adasUITests;
+			productName = adasUITests;
+			productReference = CF5620B91C941E8800FEDBED /* adasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF56208A1C941E8700FEDBED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jiangsu;
+				TargetAttributes = {
+					CF5620911C941E8700FEDBED = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+					};
+					CF5620AD1C941E8800FEDBED = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF5620911C941E8700FEDBED;
+					};
+					CF5620B81C941E8800FEDBED = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4SU7V64Q9J;
+						TestTargetID = CF5620911C941E8700FEDBED;
+					};
+				};
+			};
+			buildConfigurationList = CF56208D1C941E8700FEDBED /* Build configuration list for PBXProject "adas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5620891C941E8700FEDBED;
+			productRefGroup = CF5620931C941E8700FEDBED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5620911C941E8700FEDBED /* adas */,
+				CF5620AD1C941E8800FEDBED /* adasTests */,
+				CF5620B81C941E8800FEDBED /* adasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5620901C941E8700FEDBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5620A81C941E8700FEDBED /* LaunchScreen.storyboard in Resources */,
+				CF5620A51C941E8700FEDBED /* Assets.xcassets in Resources */,
+				CF5620A01C941E8700FEDBED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5620AC1C941E8800FEDBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5620B71C941E8800FEDBED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF56208E1C941E8700FEDBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5620DC1C9425F900FEDBED /* Person.m in Sources */,
+				CF56209D1C941E8700FEDBED /* ViewController.m in Sources */,
+				CF56209A1C941E8700FEDBED /* AppDelegate.m in Sources */,
+				CF5620A31C941E8700FEDBED /* adas.xcdatamodeld in Sources */,
+				CF5620DB1C9425F900FEDBED /* Person+CoreDataProperties.m in Sources */,
+				CF5620971C941E8700FEDBED /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5620AA1C941E8800FEDBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5620B31C941E8800FEDBED /* adasTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5620B51C941E8800FEDBED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5620BE1C941E8800FEDBED /* adasUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF5620B01C941E8800FEDBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5620911C941E8700FEDBED /* adas */;
+			targetProxy = CF5620AF1C941E8800FEDBED /* PBXContainerItemProxy */;
+		};
+		CF5620BB1C941E8800FEDBED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5620911C941E8700FEDBED /* adas */;
+			targetProxy = CF5620BA1C941E8800FEDBED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF56209E1C941E8700FEDBED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF56209F1C941E8700FEDBED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF5620A61C941E8700FEDBED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5620A71C941E8700FEDBED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF5620C01C941E8800FEDBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF5620C11C941E8800FEDBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5620C31C941E8800FEDBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.adas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CF5620C41C941E8800FEDBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = adas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.adas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CF5620C61C941E8800FEDBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.adasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adas.app/adas";
+			};
+			name = Debug;
+		};
+		CF5620C71C941E8800FEDBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = adasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.adasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/adas.app/adas";
+			};
+			name = Release;
+		};
+		CF5620C91C941E8800FEDBED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.adasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CF5620CA1C941E8800FEDBED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = adasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiangsu.adasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = adas;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF56208D1C941E8700FEDBED /* Build configuration list for PBXProject "adas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5620C01C941E8800FEDBED /* Debug */,
+				CF5620C11C941E8800FEDBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5620C21C941E8800FEDBED /* Build configuration list for PBXNativeTarget "adas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5620C31C941E8800FEDBED /* Debug */,
+				CF5620C41C941E8800FEDBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF5620C51C941E8800FEDBED /* Build configuration list for PBXNativeTarget "adasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5620C61C941E8800FEDBED /* Debug */,
+				CF5620C71C941E8800FEDBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF5620C81C941E8800FEDBED /* Build configuration list for PBXNativeTarget "adasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5620C91C941E8800FEDBED /* Debug */,
+				CF5620CA1C941E8800FEDBED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF5620A11C941E8700FEDBED /* adas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF5620A21C941E8700FEDBED /* adas.xcdatamodel */,
+			);
+			currentVersion = CF5620A21C941E8700FEDBED /* adas.xcdatamodel */;
+			path = adas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF56208A1C941E8700FEDBED /* Project object */;
+}
